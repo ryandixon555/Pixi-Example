@@ -1,0 +1,33 @@
+{
+    "name": "pixi",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.ts",
+    "scripts": {
+        "start": "webpack-dev-server --config webpack.config.js --host 0.0.0.0 --port 3000 --display-modules --content-base dev --inline --hot --mode development --env.ENVIRONMENT=dev"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "pixi.js": "4.7.0",
+        "signals": "1.0.0"
+    },
+    "devDependencies": {
+        "@types/sinon": "1.16.36",
+        "@types/sinon-chai": "2.7.29",
+        "@types/mocha": "2.2.47",
+        "@types/node": "7.0.52",
+        "chai": "^4.1.2",
+        "mocha": "^5.2.0",
+        "ts-node": "^7.0.1",
+        "typescript": "^3.0.3",
+        "@types/chai": "3.5.2",
+        "sinon-chai": "2.14.0",
+        "webpack": "4.10.2",
+        "webpack-cli": "2.1.4",
+        "webpack-dev-server": "3.1.4",
+        "ts-loader": "4.3.1",
+        "@types/pixi.js": "4.6.3",
+        "@types/signals": "0.0.17"
+    }
+}
